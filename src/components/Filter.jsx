@@ -8,7 +8,7 @@ export default function Filter() {
     setFilterByNumericValues,
     columnFilterSelector,
     setColumnFilterSelector,
-    getFilterByNumericValues,
+    // getFilterByNumericValues,
   } = useContext(PlanetsContext);
 
   const { filterByNumericValues: numericValues } = filterByNumericValues;
@@ -38,8 +38,7 @@ export default function Filter() {
   };
 
   useEffect(() => {
-    getFilterByNumericValues();
-  }, [filterByNumericValues, getFilterByNumericValues]);
+  }, [filterByNumericValues]);
 
   return (
     <div>
