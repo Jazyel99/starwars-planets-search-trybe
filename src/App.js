@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import FilterByNumericValues from './components/FilterByNumericValues';
 import InputSearch from './components/InputSearch';
 import Table from './components/Table';
